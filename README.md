@@ -4,7 +4,7 @@ This repo contains my personal [zgen](https://github.com/tarjoilija/zgen) config
 ## Installation
 1. Clone the repo on your machine:
 ````
-git clone --recursive git@github.com:wuotr/zgen-configuration.git ~/.zgen
+git clone --recursive git@github.com:jeroenmols/zgen-configuration.git ~/.zgen
 ````
 (I use a ```.zgen``` folder in my homedir, but you can use any location you want really.)
 
