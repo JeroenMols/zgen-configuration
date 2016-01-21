@@ -36,3 +36,6 @@ fi
 if [ -f ~/.zgen/.zshrc.local ]; then
   source ~/.zgen/.zshrc.local
 fi
+if [ -f ~/.zgen/.zshrc.work ]; then
+  source ~/.zgen/.zshrc.work
+fi
