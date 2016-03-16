@@ -2,6 +2,13 @@ export ANDROID_HOME=/Applications/Android/sdk
 export PATH=$ANDROID_HOME/tools:$PATH
 export PATH=$ANDROID_HOME/platform-tools:$PATH
 export PATH=$ANDROID_HOME/build-tools/23.0.2:$PATH
+
+export ANDROID_NDK=/Applications/Android/ndk/android-ndk-r10e
+export PATH=$ANDROID_NDK:$PATH
+
+export JAVA_HOME=$(/usr/libexec/java_home)
+export PATH=$JAVA_HOME:$PATH
+
 export ANDROID_HVPROTO=ddm
 
 export ANT_HOME=/Applications/apache-ant-1.9.4
