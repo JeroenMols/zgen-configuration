@@ -1,7 +1,9 @@
 export ANDROID_HOME=/Applications/Android/sdk
 export PATH=$ANDROID_HOME/tools:$PATH
+export PATH=$ANDROID_HOME/tools/bin:$PATH
 export PATH=$ANDROID_HOME/platform-tools:$PATH
 export PATH=$ANDROID_HOME/build-tools/23.0.2:$PATH
+export PATH=$ANDROID_HOME/emulator:$PATH
 
 export ANDROID_NDK=/Applications/Android/ndk/android-ndk-r10e
 export PATH=$ANDROID_NDK:$PATH
@@ -28,4 +30,6 @@ alias ll='ls -lahG'
 alias dev='cd ~/development'
 alias pp='cd ~/development/personal-projects'
 alias wp='cd ~/development/work-projects'
+alias proto='cd ~/OneDrive\ -\ Philips/App\ Prototypes/'
 alias rmapps='~/development/personal-projects/android_uninstall/rmapps.sh'
+alias pulldb='~/Google\ Drive/Work/Demeyere/get_db_fromdevice.sh'

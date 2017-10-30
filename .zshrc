@@ -39,3 +39,5 @@ fi
 if [ -f ~/.zgen/.zshrc.work ]; then
   source ~/.zgen/.zshrc.work
 fi
+
+export PATH="$PATH:$HOME/.rvm/bin" # Add RVM to PATH for scripting
